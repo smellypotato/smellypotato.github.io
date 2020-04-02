@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <form method="GET" id="form">
+            <div id="type">
+                <input type="radio" name="type" value="A5HP" checked><label for="A5HP">A5 Horizontal Portrait</label>
+                <input type="radio" name="type" value="A5HL"><label for="A5HL">A5 Horizontal Landscape</label>
+                <input type="radio" name="type" value="A5V"><label for="A5V">A5 Vertical</label>
+                <input type="radio" name="type" value="A4S"><label for="A4S">A4 Single</label>
+            </div>
+            <div id="paper">
+                <input type="radio" name="paper" value="A4" checked><label for="A4">A4</label>
+                <input type="radio" name="paper" value="Letter"><label for="Letter">Letter</label>
+            </div>
+            <div id="text">
+                <label>Use comma to seperate lines</label><input type="text">
+            </div>
+
+            </div>
+            <input type="button" value="Submit" onclick="onSubmit()">
+        </form>
+    </body>
+</html>
