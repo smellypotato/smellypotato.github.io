@@ -10,3 +10,5 @@ for (const letter of fullString) {
     div.style.backgroundColor = `#${Math.floor(Math.random()*16777215).toString(16)}`;
     document.body.appendChild(div);
 }
+
+window.print();

@@ -44,3 +44,5 @@ function addRow(table, text) {
     cell.innerText = text;
     return row;
 }
+
+window.print();

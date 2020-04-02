@@ -47,3 +47,5 @@ function addCol(table, text) {
     cell.appendChild(div);
     return cell
 }
+
+window.print();
