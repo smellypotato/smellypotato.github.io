@@ -61,6 +61,7 @@ div.lettera5hl {
 div.lettera5v {
     width: 107.95mm;
     height: 279.4mm;
+    white-space: nowrap;
 }
 
 div.vertical {
